@@ -1,7 +1,5 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+ * This is a test program to learn how to use Git from within NetBeans.
  */
 package rectangletest;
 
@@ -18,12 +16,19 @@ public class RectangleTest
 	public static void main(String[] args)
 		{
 		Rectangle r1 = new Rectangle();
+		Rectangle r2 = new Rectangle(7, 42);
 		
-		System.out.println("Rectangle details:");
+		System.out.println("Rectangle 1 details:");
 		System.out.println("Length = " + r1.getLength());
 		System.out.println("Width = " + r1.getWidth());
 		System.out.println("Area = " + r1.calculateArea());
 		System.out.println("Perimeter = " + r1.calculatePerimeter());
+		
+		System.out.println("\nRectangle 2 details:");
+		System.out.println("Length = " + r2.getLength());
+		System.out.println("Width = " + r2.getWidth());
+		System.out.println("Area = " + r2.calculateArea());
+		System.out.println("Perimeter = " + r2.calculatePerimeter());
 		}
 	
 	}
