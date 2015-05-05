@@ -29,6 +29,6 @@ public class RectangleTest
 		System.out.println("Width = " + r2.getWidth());
 		System.out.println("Area = " + r2.calculateArea());
 		System.out.println("Perimeter = " + r2.calculatePerimeter());
-		}
+		}//end of main
 	
-	}
+	}//end of class RectangleTest
